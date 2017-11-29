@@ -7,4 +7,6 @@ class CreditPayment extends Payment {
 
     static constraints = {
     }
+
+    static graphql = true
 }

@@ -13,4 +13,5 @@ abstract class Payment {
         tablePerHierarchy(false)
     }
 
+    static graphql = true
 }

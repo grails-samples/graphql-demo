@@ -9,4 +9,6 @@ class CheckPayment extends Payment {
 
     static constraints = {
     }
+
+    static graphql = true
 }

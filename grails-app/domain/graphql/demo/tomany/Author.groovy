@@ -14,4 +14,5 @@ class Author {
         books cascade: 'all-delete-orphan'
     }
 
+    static graphql = true
 }
